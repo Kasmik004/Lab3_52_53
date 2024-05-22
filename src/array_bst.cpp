@@ -1,3 +1,16 @@
+/*
+Author: Kritan Rijal (@kritanrijal on GitHub, kritanrijal@gmail.com)
+License: Unlicense
+
+Attribution:
+
+Kritan Rijal (53)
+CE-22 (Undergraduate, II-I)
+
+Department of Computer Science and Engineering
+Kathmandu University
+*/
+
 #include <iostream>
 #include "BST.h"
 
