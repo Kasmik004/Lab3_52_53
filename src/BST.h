@@ -1,3 +1,6 @@
+#ifndef BST_H
+#define BST_H
+
 class BinarySearchTree
 {
 public:
@@ -6,3 +9,5 @@ public:
     virtual bool removeBST(int) = 0;
     virtual bool searchBST(int) const = 0;
 };
+
+#endif
