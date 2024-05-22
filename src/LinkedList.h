@@ -1,4 +1,4 @@
-#include<BST.h>
+#include <BST.h>
 
 
 struct Node{
@@ -9,7 +9,7 @@ struct Node{
     Node* r;
 };
 
-class LinkedList_BST: public BST{
+class LinkedList_BST: public BinarySearchTree {
     private:
         Node* HEAD = nullptr;
         Node* TAIL = nullptr;
