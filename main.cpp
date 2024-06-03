@@ -1,23 +1,23 @@
 #include <iostream>
 
 #include "src/BST.h"
-#include "src/array_bst.cpp"
-// #include "src/linkedlist_bst.cpp"
+// #include "src/array_bst.cpp"
+#include "src/linkedlistbst.h"
 
 int main()
 {
 
-    bool useArray = true;
+    bool useArray = false;
 
     BinarySearchTree *bst = nullptr;
 
     if (useArray)
     {
-        bst = new ArrayBinarySearchTree();
+        // bst = new ArrayBinarySearchTree();
     }
     else
     {
-        // bst = new LinkedListBinarySearchTree();
+        bst = new LinkedList_BST();
     }
 
     if (bst->isEmpty())
